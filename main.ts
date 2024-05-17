@@ -3828,38 +3828,38 @@ function DoSpecialButtonMoves (Selected: Sprite, ID: number, RunningLeft: boolea
                     FallingObject = sprites.create(img`
                         . . . . . . . . . . . . . . . . 
                         . . . . . . . . . . . . . . . . 
-                        . . . . . . . f f f . . . . . . 
-                        . . . . . . . f f f . . . . . . 
-                        . . . . f f f f f f . . . . . . 
-                        . . . . f f f f f f . . . . . . 
-                        . . . . f f f f f f . . . . . . 
-                        . . . . . . . f f f . . . . . . 
-                        . . . . . . . f f f . . . . . . 
-                        . . . . . . . f f f . . . . . . 
-                        . . . . . . . f f f . . . . . . 
-                        . . . . . . . f f f . . . . . . 
-                        . . . . f f f f f f f f f . . . 
-                        . . . . f f f f f f f f f . . . 
-                        . . . . f f f f f f f f f . . . 
+                        . . . . . . . . . . . . . . . . 
+                        . . . . . f f . f f . . . . . . 
+                        . . . . f 1 1 f 1 1 f . . . . . 
+                        . . . . . 1 1 1 1 1 . . . . . . 
+                        . . . . . . 1 f 1 . . . . . . . 
+                        . . . . . f f f f f . . . . . . 
+                        . . . . f 5 f 5 f 5 f . . . . . 
+                        . . . . f 5 f 5 f 5 f . . . . . 
+                        . . . . f 5 f 5 f 5 f . . . . . 
+                        . . . . . f f f f f . . . . . . 
+                        . . . . . . . . . . . . . . . . 
+                        . . . . . . . . . . . . . . . . 
+                        . . . . . . . . . . . . . . . . 
                         . . . . . . . . . . . . . . . . 
                         `, SpriteKind.FallingThing)
                     FallingObject.x = Selected.x + sprites.readDataNumber(Selected, "Dir") / 5
                     FallingObject = sprites.create(img`
                         . . . . . . . . . . . . . . . . 
                         . . . . . . . . . . . . . . . . 
-                        . f f f f f f f f f f f . . . . 
-                        . f f f f f f f f f f f . . . . 
-                        . f f f f f f f f f f f . . . . 
-                        . f f f . . . . . f f f . . . . 
-                        . f f f . . . . . f f f . . . . 
-                        . f f f . . . . . f f f . . . . 
-                        . f f f . . . . . f f f . . . . 
-                        . f f f . . . . . f f f . . . . 
-                        . f f f . . . . . f f f . . . . 
-                        . f f f . . . . . f f f . . . . 
-                        . f f f f f f f f f f f . . . . 
-                        . f f f f f f f f f f f . . . . 
-                        . f f f f f f f f f f f . . . . 
+                        . . . . . . . . . . . . . . . . 
+                        . . . . . . . . . . . . . . . . 
+                        . . . . . . . . . b . . . . . . 
+                        . . . . . . . f b b b . . . . . 
+                        . . . . . . f f f b . . . . . . 
+                        . . . . . f f f f f . . . . . . 
+                        . . . . f f f f f . . . . . . . 
+                        . . . . f f f f . . . . . . . . 
+                        . . . . . f f . . . . . . . . . 
+                        . . . . . . . . . . . . . . . . 
+                        . . . . . . . . . . . . . . . . 
+                        . . . . . . . . . . . . . . . . 
+                        . . . . . . . . . . . . . . . . 
                         . . . . . . . . . . . . . . . . 
                         `, SpriteKind.FallingThing)
                     FallingObject.x = Selected.x - sprites.readDataNumber(Selected, "Dir") / 5
@@ -3867,38 +3867,38 @@ function DoSpecialButtonMoves (Selected: Sprite, ID: number, RunningLeft: boolea
                         FallingObject = sprites.create(img`
                             . . . . . . . . . . . . . . . . 
                             . . . . . . . . . . . . . . . . 
-                            . . . . . . . f f f . . . . . . 
-                            . . . . . . . f f f . . . . . . 
-                            . . . . f f f f f f . . . . . . 
-                            . . . . f f f f f f . . . . . . 
-                            . . . . f f f f f f . . . . . . 
-                            . . . . . . . f f f . . . . . . 
-                            . . . . . . . f f f . . . . . . 
-                            . . . . . . . f f f . . . . . . 
-                            . . . . . . . f f f . . . . . . 
-                            . . . . . . . f f f . . . . . . 
-                            . . . . f f f f f f f f f . . . 
-                            . . . . f f f f f f f f f . . . 
-                            . . . . f f f f f f f f f . . . 
+                            . . . . . . . . . . . . . . . . 
+                            . . . . . f f . f f . . . . . . 
+                            . . . . f 1 1 f 1 1 f . . . . . 
+                            . . . . . 1 1 1 1 1 . . . . . . 
+                            . . . . . . 1 f 1 . . . . . . . 
+                            . . . . . f f f f f . . . . . . 
+                            . . . . f 5 f 5 f 5 f . . . . . 
+                            . . . . f 5 f 5 f 5 f . . . . . 
+                            . . . . f 5 f 5 f 5 f . . . . . 
+                            . . . . . f f f f f . . . . . . 
+                            . . . . . . . . . . . . . . . . 
+                            . . . . . . . . . . . . . . . . 
+                            . . . . . . . . . . . . . . . . 
                             . . . . . . . . . . . . . . . . 
                             `, SpriteKind.FallingThing)
                         FallingObject.x = Selected.x + sprites.readDataNumber(Selected, "Dir") / 5
                         FallingObject = sprites.create(img`
                             . . . . . . . . . . . . . . . . 
                             . . . . . . . . . . . . . . . . 
-                            . f f f f f f f f f f f . . . . 
-                            . f f f f f f f f f f f . . . . 
-                            . f f f f f f f f f f f . . . . 
-                            . f f f . . . . . f f f . . . . 
-                            . f f f . . . . . f f f . . . . 
-                            . f f f . . . . . f f f . . . . 
-                            . f f f . . . . . f f f . . . . 
-                            . f f f . . . . . f f f . . . . 
-                            . f f f . . . . . f f f . . . . 
-                            . f f f . . . . . f f f . . . . 
-                            . f f f f f f f f f f f . . . . 
-                            . f f f f f f f f f f f . . . . 
-                            . f f f f f f f f f f f . . . . 
+                            . . . . . . . . . . . . . . . . 
+                            . . . . . . . . . . . . . . . . 
+                            . . . . . . . . . b . . . . . . 
+                            . . . . . . . f b b b . . . . . 
+                            . . . . . . f f f b . . . . . . 
+                            . . . . . f f f f f . . . . . . 
+                            . . . . f f f f f . . . . . . . 
+                            . . . . f f f f . . . . . . . . 
+                            . . . . . f f . . . . . . . . . 
+                            . . . . . . . . . . . . . . . . 
+                            . . . . . . . . . . . . . . . . 
+                            . . . . . . . . . . . . . . . . 
+                            . . . . . . . . . . . . . . . . 
                             . . . . . . . . . . . . . . . . 
                             `, SpriteKind.FallingThing)
                         FallingObject.x = Selected.x - sprites.readDataNumber(Selected, "Dir") / 5
@@ -3906,38 +3906,38 @@ function DoSpecialButtonMoves (Selected: Sprite, ID: number, RunningLeft: boolea
                             FallingObject = sprites.create(img`
                                 . . . . . . . . . . . . . . . . 
                                 . . . . . . . . . . . . . . . . 
-                                . . . . . . . f f f . . . . . . 
-                                . . . . . . . f f f . . . . . . 
-                                . . . . f f f f f f . . . . . . 
-                                . . . . f f f f f f . . . . . . 
-                                . . . . f f f f f f . . . . . . 
-                                . . . . . . . f f f . . . . . . 
-                                . . . . . . . f f f . . . . . . 
-                                . . . . . . . f f f . . . . . . 
-                                . . . . . . . f f f . . . . . . 
-                                . . . . . . . f f f . . . . . . 
-                                . . . . f f f f f f f f f . . . 
-                                . . . . f f f f f f f f f . . . 
-                                . . . . f f f f f f f f f . . . 
+                                . . . . . . . . . . . . . . . . 
+                                . . . . . f f . f f . . . . . . 
+                                . . . . f 1 1 f 1 1 f . . . . . 
+                                . . . . . 1 1 1 1 1 . . . . . . 
+                                . . . . . . 1 f 1 . . . . . . . 
+                                . . . . . f f f f f . . . . . . 
+                                . . . . f 5 f 5 f 5 f . . . . . 
+                                . . . . f 5 f 5 f 5 f . . . . . 
+                                . . . . f 5 f 5 f 5 f . . . . . 
+                                . . . . . f f f f f . . . . . . 
+                                . . . . . . . . . . . . . . . . 
+                                . . . . . . . . . . . . . . . . 
+                                . . . . . . . . . . . . . . . . 
                                 . . . . . . . . . . . . . . . . 
                                 `, SpriteKind.FallingThing)
                             FallingObject.x = Selected.x + sprites.readDataNumber(Selected, "Dir") / 5
                             FallingObject = sprites.create(img`
                                 . . . . . . . . . . . . . . . . 
                                 . . . . . . . . . . . . . . . . 
-                                . f f f f f f f f f f f . . . . 
-                                . f f f f f f f f f f f . . . . 
-                                . f f f f f f f f f f f . . . . 
-                                . f f f . . . . . f f f . . . . 
-                                . f f f . . . . . f f f . . . . 
-                                . f f f . . . . . f f f . . . . 
-                                . f f f . . . . . f f f . . . . 
-                                . f f f . . . . . f f f . . . . 
-                                . f f f . . . . . f f f . . . . 
-                                . f f f . . . . . f f f . . . . 
-                                . f f f f f f f f f f f . . . . 
-                                . f f f f f f f f f f f . . . . 
-                                . f f f f f f f f f f f . . . . 
+                                . . . . . . . . . . . . . . . . 
+                                . . . . . . . . . . . . . . . . 
+                                . . . . . . . . . b . . . . . . 
+                                . . . . . . . f b b b . . . . . 
+                                . . . . . . f f f b . . . . . . 
+                                . . . . . f f f f f . . . . . . 
+                                . . . . f f f f f . . . . . . . 
+                                . . . . f f f f . . . . . . . . 
+                                . . . . . f f . . . . . . . . . 
+                                . . . . . . . . . . . . . . . . 
+                                . . . . . . . . . . . . . . . . 
+                                . . . . . . . . . . . . . . . . 
+                                . . . . . . . . . . . . . . . . 
                                 . . . . . . . . . . . . . . . . 
                                 `, SpriteKind.FallingThing)
                             FallingObject.x = Selected.x - sprites.readDataNumber(Selected, "Dir") / 5
@@ -3945,38 +3945,38 @@ function DoSpecialButtonMoves (Selected: Sprite, ID: number, RunningLeft: boolea
                                 FallingObject = sprites.create(img`
                                     . . . . . . . . . . . . . . . . 
                                     . . . . . . . . . . . . . . . . 
-                                    . . . . . . . f f f . . . . . . 
-                                    . . . . . . . f f f . . . . . . 
-                                    . . . . f f f f f f . . . . . . 
-                                    . . . . f f f f f f . . . . . . 
-                                    . . . . f f f f f f . . . . . . 
-                                    . . . . . . . f f f . . . . . . 
-                                    . . . . . . . f f f . . . . . . 
-                                    . . . . . . . f f f . . . . . . 
-                                    . . . . . . . f f f . . . . . . 
-                                    . . . . . . . f f f . . . . . . 
-                                    . . . . f f f f f f f f f . . . 
-                                    . . . . f f f f f f f f f . . . 
-                                    . . . . f f f f f f f f f . . . 
+                                    . . . . . . . . . . . . . . . . 
+                                    . . . . . f f . f f . . . . . . 
+                                    . . . . f 1 1 f 1 1 f . . . . . 
+                                    . . . . . 1 1 1 1 1 . . . . . . 
+                                    . . . . . . 1 f 1 . . . . . . . 
+                                    . . . . . f f f f f . . . . . . 
+                                    . . . . f 5 f 5 f 5 f . . . . . 
+                                    . . . . f 5 f 5 f 5 f . . . . . 
+                                    . . . . f 5 f 5 f 5 f . . . . . 
+                                    . . . . . f f f f f . . . . . . 
+                                    . . . . . . . . . . . . . . . . 
+                                    . . . . . . . . . . . . . . . . 
+                                    . . . . . . . . . . . . . . . . 
                                     . . . . . . . . . . . . . . . . 
                                     `, SpriteKind.FallingThing)
                                 FallingObject.x = Selected.x + sprites.readDataNumber(Selected, "Dir") / 5
                                 FallingObject = sprites.create(img`
                                     . . . . . . . . . . . . . . . . 
                                     . . . . . . . . . . . . . . . . 
-                                    . f f f f f f f f f f f . . . . 
-                                    . f f f f f f f f f f f . . . . 
-                                    . f f f f f f f f f f f . . . . 
-                                    . f f f . . . . . f f f . . . . 
-                                    . f f f . . . . . f f f . . . . 
-                                    . f f f . . . . . f f f . . . . 
-                                    . f f f . . . . . f f f . . . . 
-                                    . f f f . . . . . f f f . . . . 
-                                    . f f f . . . . . f f f . . . . 
-                                    . f f f . . . . . f f f . . . . 
-                                    . f f f f f f f f f f f . . . . 
-                                    . f f f f f f f f f f f . . . . 
-                                    . f f f f f f f f f f f . . . . 
+                                    . . . . . . . . . . . . . . . . 
+                                    . . . . . . . . . . . . . . . . 
+                                    . . . . . . . . . b . . . . . . 
+                                    . . . . . . . f b b b . . . . . 
+                                    . . . . . . f f f b . . . . . . 
+                                    . . . . . f f f f f . . . . . . 
+                                    . . . . f f f f f . . . . . . . 
+                                    . . . . f f f f . . . . . . . . 
+                                    . . . . . f f . . . . . . . . . 
+                                    . . . . . . . . . . . . . . . . 
+                                    . . . . . . . . . . . . . . . . 
+                                    . . . . . . . . . . . . . . . . 
+                                    . . . . . . . . . . . . . . . . 
                                     . . . . . . . . . . . . . . . . 
                                     `, SpriteKind.FallingThing)
                                 FallingObject.x = Selected.x - sprites.readDataNumber(Selected, "Dir") / 5
@@ -36174,22 +36174,22 @@ function StartCharacters (TwoPlayerMode: boolean, RankedMatch: boolean) {
         . . . . . . . . . . . . . . . . 
         `],
     [img`
-        . . . . . . . . . . 7 7 . . . . 
-        . . . . . . . . . 7 7 7 7 . . . 
-        . . . . . f f f f 7 7 7 7 7 . . 
-        . . . . f 5 2 2 4 7 7 7 7 7 . . 
-        . . . . f 2 f 2 f 5 4 7 7 . . . 
-        . . . f f 2 f 2 f 2 2 f . . . . 
-        . . . f f 4 2 2 2 f f . . . . . 
-        . . . f 2 f f f f 2 f . . . . . 
-        . . . f 2 f 8 8 f 2 f . . . . . 
-        . . . f f f 8 8 8 f f . . . . . 
-        . . . . . f 8 8 8 f . . . . . . 
-        . . . . . f f f f f . . . . . . 
-        . . . . . f 2 2 2 f . . . . . . 
-        . . . . . f 2 f 2 f . . . . . . 
-        . . . . . f 2 f 2 f . . . . . . 
-        . . . . . f f f f f . . . . . . 
+        . . . . . . f f f f . . . . . . 
+        . . . . . f 2 2 2 2 f . . . . . 
+        . . . . f 2 7 7 2 7 7 f . . . . 
+        . . . f 2 7 2 2 2 2 2 7 f . . . 
+        . . . f 7 2 f f f f 2 2 f . . . 
+        . . . f 2 f f d d f f 2 f f . . 
+        . . f 2 f d f d d f d f 2 f . . 
+        . f f 2 f d 2 d d 2 d f 2 f . . 
+        . f f 2 2 f d d d d f 2 2 f . . 
+        . f d d f 2 f f f f 2 f d d f . 
+        . . f d f 2 4 2 2 4 2 f d f . . 
+        . . f f f f 2 4 4 2 f f f f . . 
+        . . . f f 2 2 2 2 2 2 f f . . . 
+        . . . f 2 2 4 2 2 4 2 2 f . . . 
+        . . . f f f f f f f f f f . . . 
+        . . . . . f f . . f f . . . . . 
         `],
     [img`
         . . . . . . . . . . . . . . . . 
